@@ -27,6 +27,12 @@ If there is a problem with an existing port you need to add --port flag (3001 is
 ```bash
 json-server --watch db.json --port 3001
 ```
+
+However if you want to use different port than 3001 you need to change fetch API links in components:
+Task.tsx, TasksWrapper.tsx, AddTask.tsx.
+```bash
+await fetch('http://localhost:{ChangeForYourPort}/...')
+```
     
 ## Screenshots
 
