@@ -28,6 +28,10 @@ If there is a problem with an existing port you need to add --port flag (3001 is
 json-server --watch db.json --port 3001
 ```
     
-## Demo
+## Screenshots
 
-https://lambent-cat-a9c7bf.netlify.app/ (Tasks doesn't work because json-server is disabled)
+![App Screenshot](https://raw.githubusercontent.com/JMatracki/JSON_Server-To-Do-List/main/src/assets/demo.png)
+
+
+## Demo
+https://lambent-cat-a9c7bf.netlify.app/ (Tasks doesn't work if your json-server is not started)
